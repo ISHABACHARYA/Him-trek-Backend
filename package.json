@@ -1,0 +1,30 @@
+{
+    "name": "him-trek-backend",
+    "version": "1.0.0",
+    "description": "'Backend for Him-trek'",
+    "main": "server.js",
+    "scripts": {
+        "test": "node server.js",
+        "server": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/ISHABACHARYA/Him-trek-Backend.git"
+    },
+    "keywords": [
+        "him-trek"
+    ],
+    "author": "Ishab",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ISHABACHARYA/Him-trek-Backend/issues"
+    },
+    "homepage": "https://github.com/ISHABACHARYA/Him-trek-Backend#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "joi": "^14.3.0",
+        "nodemon": "^1.18.9",
+        "passport": "^0.4.0"
+    }
+}
