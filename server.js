@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/places", placesDetails);
 app.use("/hotels", hotelDetails);
 app.use("/todos", todoDetails);
-app.use("/guide", guideDetails);
+app.use("/guides", guideDetails);
 // app.get("/", (req, res) => {
 //   res.send({ message: { data: { name: "himtrek" } } });
 // });

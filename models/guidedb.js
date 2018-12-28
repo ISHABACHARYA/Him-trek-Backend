@@ -36,4 +36,4 @@ const guide =[
     }
 
 ]
-module.exports(guide);
+module.exports=(guide);

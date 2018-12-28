@@ -3,7 +3,7 @@ const router = express.Router();
 const guideDetails = require("../../models/guidedb");
 
 router.get("/", (req, res) => {
-  res.send(guideDetails.status(200));
+  res.send(guideDetails).status(200);
   return;
 });
 router.get("/:location", (req, res) => {
