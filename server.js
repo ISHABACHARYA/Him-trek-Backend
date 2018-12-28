@@ -3,6 +3,7 @@ const joi = require("joi");
 const placesDetails = require("./routers/places");
 const bodyParser = require("body-parser");
 const hotelDetails = require("./routers/hotels");
+const todoDetails = require("./routers/todos");
 
 const app = express();
 // const schema = {
@@ -19,6 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/places", placesDetails);
 app.use("/hotels", hotelDetails);
+app.use("/todos", todoDetails);
 // app.get("/", (req, res) => {
 //   res.send({ message: { data: { name: "himtrek" } } });
 // });
