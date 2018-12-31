@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const hotelDetails = require("../routers/hotels");
 const todoDetails = require("../routers/todos");
 const guideDetails = require("../routers/guide");
+const photoDetails = require("../routers/photo");
 
 function router(app) {
   app.use("/places", placesDetails);
